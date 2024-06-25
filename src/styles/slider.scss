@@ -1,0 +1,44 @@
+@import './vars.scss';
+
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+		.slider-wrapper {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			transition: transform 0.5s ease;
+			//transform: translateX(0);
+		}
+		.left-arrow, .right-arrow {
+			background-color: transparent;
+			border: none;
+			color: $color-two;
+			padding: 0.5rem;
+			cursor: pointer;
+			&:hover{
+				color: $color-two;
+			}
+		}
+		.slider-content {
+			flex: 1;
+			display: flex;
+			justify-content: center;
+			img{
+				width: 100%;	;
+				border-radius: 0.5rem;
+			}
+		} 
+
+	.slider-wrapper.slide-left {
+		transform: translateX(-100%);
+	}
+
+	.slider-wrapper.slide-right {
+		transform: translateX(100%);
+	}
+	
+}

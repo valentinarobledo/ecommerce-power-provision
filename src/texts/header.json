@@ -1,0 +1,33 @@
+{
+	"headerMenu": [
+		{
+			"home": "Home",
+			"shop": "Shop",
+			"offers": "Ofertas",
+			"contact": "Contact"
+		}
+	],
+	"optionsMenu": [
+		{
+			"text": "Categorie 1",
+			"slug": "category-1"
+		},
+		{
+			"text": "Categorie 2",
+			"slug": "category-2"
+		},
+		{
+			"text": "Categorie 3",
+			"slug": "category-3"
+		},
+		{
+			"text": "Categorie 4",
+			"slug": "category-4"
+		},
+		{
+			"text": "Categorie 5",
+			"slug": "category-5"
+		}
+
+	]
+}	

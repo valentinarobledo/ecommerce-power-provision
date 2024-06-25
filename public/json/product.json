@@ -1,0 +1,23 @@
+[
+	{
+		"slug": "product-1",
+		"name": "Product 1",
+		"image": "https://via.placeholder.com/150",
+		"price": "100",
+		"discount": "20"
+	},
+	{
+		"slug": "product-2",
+		"name": "Product 2",
+		"image": "https://via.placeholder.com/150",
+		"price": "200",
+		"discount": "40"
+	},
+	{
+		"slug": "product-3",
+		"name": "Product 3",
+		"image": "https://via.placeholder.com/150",
+		"price": "300",         
+		"discount": "60"
+	}
+]

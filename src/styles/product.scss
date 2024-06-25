@@ -1,0 +1,35 @@
+@import './vars.scss';
+
+.product-item{
+	margin: 1rem;
+	position: relative;
+	.product-img{
+		width: 100%;
+		height: auto;
+	}
+	.tag{
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 0.4rem;
+		background-color: $color-three;
+		color: $color-white;
+		border-radius: 0.5rem;
+		font-size: 0.9rem;
+	}
+}
+
+.price-discount{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0.5rem 0;
+	.price{
+		font-size: .9rem;
+	}
+	.discount{
+		font-weight: bold;
+		font-size: .9rem;
+		color: $color-primary;
+	}
+}

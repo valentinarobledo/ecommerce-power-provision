@@ -1,0 +1,91 @@
+@import './fonts.scss';
+@import './layout.scss';
+@import './vars.scss';
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Poppins", sans-serif;
+}
+
+.color-black{
+	color: $black;
+}
+.color-primary{
+	color: $color-primary;
+}
+.color-gray{
+	color: $color-gray;
+}
+.color-one{
+	color: $color-one;
+}
+.color-two{
+	color: $color-two;
+}
+.color-three{
+	color: $color-three;
+}
+.color-white{
+	color: white;
+}
+
+.bg-one{
+	background-color: $color-one;
+}
+.bg-two{
+	background-color: $color-two;
+}
+.bg-three{
+	background-color: $color-three;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+.btn{
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	display: flex;
+	.icon{
+		margin-right: 0.2rem;
+	}
+
+	&:hover{
+		background-color: lighten($color-primary, 10%);
+	}
+}
+
+.principal-name{
+	font-size: 1.2rem;
+}
+.small{
+	font-size: 0.8rem;
+	
+}
+
+.text-through{
+	text-decoration: line-through;
+}
+
+.text-center{
+	text-align: center;
+}
+
+/* @media (max-width: 576px) {
+	.only-mobile{
+		display: block;
+	}
+} */
